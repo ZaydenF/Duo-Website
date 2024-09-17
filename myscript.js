@@ -3,4 +3,5 @@ $(document).ready(function(){
   $(".showA").click(function() {
 	$(this).next(".answer").slideToggle();
   });
+
 });
