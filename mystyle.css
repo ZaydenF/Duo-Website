@@ -12,3 +12,7 @@ width: 50%;
 .alert-danger {
 display: none;
 }
+
+.alert-success {
+ display: none;
+}
