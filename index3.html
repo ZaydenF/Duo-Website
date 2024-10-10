@@ -30,208 +30,191 @@
         </div>
     </nav> 
 	<h1> Medium Quiz </h1>
-	<div class="q1">
+	  <div class="Title">
+		 <p> Can you answer these 7 questions correctly?</p> 
+	</div>
+	  <!-- Question 1 -->
+	<div class= "radioForm">
 		<h2> Question 1: How many countries are inside the United Kingdom </h2>
 	</div>
 	<form>
-		<input type="radio" id="answer1" name="geography" value="option name">
-		<label for="option name"> Three</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer2" name="geography" value="option name">
-		<label for="option name"> Four</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer3" name="geography" value="option name">
-		<label for="option name"> Five</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer4" name="geography" value="option name">
-		<label for="option name"> Two</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="wrong"> Three <br>
+			<input type="radio" name="geography" value="wrong"> Four <br>
+			<input type="radio" name="geography" value="correct"> Five <br>
+			<input type="radio" name="geography" value="wrong"> Two
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Five. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: 5  </div>
-	  
-	<div class="q2">
+	 <!-- Question 2 --> 
+	<div class = "radioForm">
 		<h2> Question 2: Which of the following is NOT a capital city <h2>
 	</div>
 	<form>
-		<input type="radio" id="answer5" name="geography" value="option name">
-		<label for="option name"> London</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer6" name="geography" value="option name">
-		<label for="option name"> Rome</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer7" name="geography" value="option name">
-		<label for="option name"> Sydney</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer8" name="geography" value="option name">
-		<label for="option name"> Budapest</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="wrong"> London <br>
+			<input type="radio" name="geography" value="wrong"> Rome <br>
+			<input type="radio" name="geography" value="correct"> Sydney <br>
+			<input type="radio" name="geography" value="wrong"> Budapest
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+       			You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Sydney. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Sydney  </div>
-	  
-	<div class="q3">
+	  <!-- Question 3 -->
+	<div class = "radioForm">
 		<h2> Question 3: Which country has the abbreviation CH <h2>
 	</div>
 	<form>
-		<input type="radio" id="answer9" name="geography" value="option name">
-		<label for="option name"> Switzerland</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer10" name="geography" value="option name">
-		<label for="option name"> China</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer11" name="geography" value="option name">
-		<label for="option name"> Chile</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer12" name="geography" value="option name">
-		<label for="option name"> Chad</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="correct"> Switzerland <br>
+			<input type="radio" name="geography" value="wrong"> China <br>
+			<input type="radio" name="geography" value="wrong"> Chile <br>
+			<input type="radio" name="geography" value="wrong"> Chad 
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+   		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Switzerland. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Switzerland  </div>
-	  
-	<div class="q4">
+	  <!-- Question 4 -->
+	<div class = "radioForm">
 		<h2> Question 4: What country formerly owned Iceland <h2>
 	</div>
 	<form>
-		<input type="radio" id="answer9" name="geography" value="option name">
-		<label for="option name"> Finland</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer10" name="geography" value="option name">
-		<label for="option name"> Sweden</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer11" name="geography" value="option name">
-		<label for="option name"> Norway</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer12" name="geography" value="option name">
-		<label for="option name"> Denmark</label>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
+		<div>>
+			<input type="radio" name="geography" value="wrong"> Finland <br>
+			<input type="radio" name="geography" value="wrong"> Sweden <br>
+			<input type="radio" name="geography" value="wrong"> Norway <br>
+			<input type="radio" name="geography" value="correct"> Denmark
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+		        You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+		<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Denmark. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Denmark  </div>
-	  
-	<div class="q5">
+	  <!-- Question 5 -->
+	<div class="radioForm">
 		<h2> Question 5: How many time zones does Australia have <h2>
 	</div>
 	<form>
-		<input type="radio" id="answer9" name="geography" value="option name">
-		<label for="option name"> Four</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer10" name="geography" value="option name">
-		<label for="option name"> Five</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer11" name="geography" value="option name">
-		<label for="option name"> Three</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer12" name="geography" value="option name">
-		<label for="option name"> One</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="correct"> Four <br>
+			<input type="radio" name="geography" value="wrong"> Five <br>
+			<input type="radio" name="geography" value="correct"> Three <br>
+			<input type="radio" name="geography" value="wrong"> One
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Three. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Three   </div>
-	  
-	<div class="q6">
+	 <!-- Question 6 --> 
+	<div class="radioForm">
 		<h2> Question 6: What country has the most Holocene Volcanoes </h2>
 	</div>
 	<form>
-		<input type="radio" id="answer1" name="geography" value="option name">
-		<label for="option name"> Indonesia</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer2" name="geography" value="option name">
-		<label for="option name"> United States</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer3" name="geography" value="option name">
-		<label for="option name"> Japan</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer4" name="geography" value="option name">
-		<label for="option name"> Chile</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="wrong"> Indonesia <br>
+			<input type="radio" name="geography" value="correct"> United States <br>
+			<input type="radio" name="geography" value="wrong"> Japan <br>
+			<input type="radio" name="geography" value="wrong"> Chile
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is the United States. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: United States  </div>
-	  
-	<div class="q7">
+	  <!-- Question 7 -->
+	<div class="radioForm">
 		<h2> Question 7: How many countries are in Africa </h2>
 	</div>
 	<form>
-		<input type="radio" id="answer1" name="geography" value="option name">
-		<label for="option name"> 100</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer2" name="geography" value="option name">
-		<label for="option name"> 78</label><br>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
-		<input type="radio" id="answer3" name="geography" value="option name">
-		<label for="option name"> 54</label><br>
-	<div class="alert alert-success">
-    		<strong>Success!</strong> This alert box could indicate a successful or positive action.
-  	</div>
-		<input type="radio" id="answer4" name="geography" value="option name">
-		<label for="option name"> 61</label>
-	<div class="alert alert-danger">
-    		<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
- 	 </div>
+		<div>
+			<input type="radio" name="geography" value="wrong"> 100 <br>
+			<input type="radio" name="geography" value="wrong"> 78 <br>
+			<input type="radio" name="geography" value="correct"> 54 <br>
+			<input type="radio" name="geography" value="wrong"> 61
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is 54. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: 54  </div>
 
 	<ul class="pagination justify-content-center">
   		<li class="page-item"><a class="page-link" href="index2.html">Previous</a></li>
