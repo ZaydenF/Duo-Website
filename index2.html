@@ -30,99 +30,137 @@
         </div>
     </nav> 
 	<h1> Easy Quiz </h1>
+	  	<div class="title"> 
+			<p> Can you answer these 5 questions correctly? </p>
+		</div>
+	  <!-- Question 1 -->
 	<div class="QuestionTitle">
 		<h2> Question 1: Which country has the highest population </h2>
 	</div>
 	<form class = "radioform">
-		<input type="radio" id="answer1" name="geography" value="wrong">
-		<label for="option name"> China</label><br>
-		<input type="radio" id="answer2" name="geography" value="wrong">
-		<label for="option name"> Russia</label><br>
-		<input type="radio" id="answer3" name="geography" value="correct">
-		<label for="option name"> India</label><br>
-		<input type="radio" id="answer4" name="geography" value="wrong">
-		<label for="option name"> U.S.A</label>
+		<div>
+			<input type="radio" name="geography" value="wrong"> China <br>
+			<input type="radio" name="geography" value="wrong"> Russia <br>
+			<input type="radio" name="geography" value="correct"> India <br>
+			<input type="radio" name="geography" value="wrong"> U.S.A
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is India. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: India  </div>
-	  
+	  <!-- Question 2 -->
 	<div class="QuestionTitle">
 		<h2> Question 2: What is the biggest country in the world</h2>
 	</div>
 	<form class = "radioform">
-		<input type="radio" id="answer5" name="geography" value="wrong">
-		<label for="option name"> Canada</label><br>
-		<input type="radio" id="answer6" name="geography" value="wrong">
-		<label for="option name"> Brazil</label><br>
-		<input type="radio" id="answer7" name="geography" value="wrong">
-		<label for="option name"> U.S.A</label><br>
-		<input type="radio" id="answer8" name="geography" value="correct">
-		<label for="option name"> Russia</label>
+		<div>
+			<input type="radio" name="geography" value="wrong"> Canada <br>
+			<input type="radio" name="geography" value="wrong"> Brazil <br>
+			<input type="radio" name="geography" value="wrong"> U.S.A <br>
+			<input type="radio" name="geography" value="correct"> Russia 
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Russia. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Russia  </div>
-	  
+	  <!-- Question 3 -->
 	<div class="QuestionTitle">
 		<h2> Question 3: What is the capital of Canada <h2>
 	</div>
 	<form class = "radioform">
-		<input type="radio" id="answer9" name="geography" value="correct">
-		<label for="option name"> Ottawa</label><br>
-		<input type="radio" id="answer10" name="geography" value="wrong">
-		<label for="option name"> Vancouver</label><br>
-		<input type="radio" id="answer11" name="geography" value="wrong">
-		<label for="option name"> Toronto</label><br>
-		<input type="radio" id="answer12" name="geography" value="wrong">
-		<label for="option name"> Montreal</label>
+		<div>
+			<input type="radio" name="geography" value="correct"> Ottawa <br>
+			<input type="radio" name="geography" value="wrong"> Vancouver <br>
+			<input type="radio" name="geography" value="wrong"> Toronto <br>
+			<input type="radio" name="geography" value="wrong"> Montreal
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Ottawa. </p>
+    		</div>
 	</form>
 	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Ottawa   </div>
-	  
+	<!-- Question 4 -->  
 	<div class="QuestionTitle">
 		<h2> Question 4: What is the biggest desert in the world <h2>
 	</div>
 	<form class = "radioform">
-		<input type="radio" id="answer9" name="geography" value="wrong">
-		<label for="option name"> The Sahara Desert</label><br>
-		<input type="radio" id="answer10" name="geography" value="wrong">
-		<label for="option name"> Mojave Desert</label><br>
-		<input type="radio" id="answer11" name="geography" value="wrong">
-		<label for="option name"> Arabian Desert</label><br>
-		<input type="radio" id="answer12" name="geography" value="correct">
-		<label for="option name"> Antarctic Desert</label>
+		<div>
+			<input type="radio" name="geography" value="wrong"> The Sahara Desert <br>
+			<input type="radio" name="geography" value="wrong"> Mojave Desert<br>
+			<input type="radio" name="geography" value="wrong"> Arabian Desert<br>
+			<input type="radio" name="geography" value="correct"> Antarctica Desert
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
+
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is Antarctica. </p>
+    		</div>
 	</form>
-	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Antarctic Desert  </div>
-	  
+	  <!-- Question 5 -->
 	<div class="QuestionTitle">
 		<h2> Question 5: What is the biggest ocean in the world <h2>
 	</div>
 	<form class = "radioform">
-		<input type="radio" id="answer9" name="geography" value="wrong">
-		<label for="option name"> Indian Ocean</label><br>
-		<input type="radio" id="answer10" name="geography" value="correct">
-		<label for="option name"> Pacific Ocean</label><br>
-		<input type="radio" id="answer11" name="geography" value="wrong">
-		<label for="option name"> Atlantic Ocean</label><br>
-		<input type="radio" id="answer12" name="geography" value="wrong">
-		<label for="option name"> Arctic Ocean</label>
-	</form>
-	
-	<button class="showA" data-answer="a5">Show Answer</button>
-	  <div class="answer"> Correct answer: Pacific Ocean  </div>
-	    
-	<!-- <div class="alert alert-danger" role="alert">
-        You selected the wrong option!
-    </div> 
+		<div>
+			<input type="radio" id="answer9" name="geography" value="wrong"> Indian Ocean <br>
+			<input type="radio" id="answer10" name="geography" value="correct"> Pacific Ocean <br>
+			<input type="radio" id="answer11" name="geography" value="wrong"> Atlantic Ocean <br>
+			<input type="radio" id="answer12" name="geography" value="wrong"> Arctic
+		</div>
+		<div class="alert alert-danger" role="alert">
+        		You chose the wrong answer!
+    		</div>
+    		<div class="alert alert-success" role="alert">
+        		You chose the correct answer!
+    		</div>
 
-     <!-- Bootstrap Success Alert -->
-	<!-- <div class="alert alert-success" role="alert">
-        You selected the correct option!
-    </div> -->
+    		<button type="submit" class="btn btn-primary">Submit Answer</button>
+	 	<button type="button" class="showA btn btn-info">Show Answer</button>
+
+    		<div class="answer">
+        		<p> The correct answer is the Pacific Ocean. </p>
+    		</div>
+	</form>
 
 <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
